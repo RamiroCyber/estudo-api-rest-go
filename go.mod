@@ -3,6 +3,7 @@ module github.com/ramiro/API
 go 1.16
 
 require (
+	github.com/go-chi/chi/v5 v5.0.7 // indirect
 	github.com/lib/pq v1.10.6
 	github.com/pelletier/go-toml/v2 v2.0.2 // indirect
 	github.com/spf13/viper v1.12.0

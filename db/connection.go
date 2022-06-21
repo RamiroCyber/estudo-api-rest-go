@@ -16,7 +16,7 @@ func OpenConnection() (*sql.DB, error) {
 	if err != nil {
 		panic(err)
 	}
-	err = conn.Ping()
+	err = conn.Ping() // verifica se tem conexao se esta ativa e estabelecendo se necessario
 
 	return conn, err
 }
