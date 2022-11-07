@@ -1,4 +1,4 @@
-# estudo-api-rest-go
+# Estudo sobre apis usando golang
 
 ###CRUD simples usando postgres e o pacote viper
 
